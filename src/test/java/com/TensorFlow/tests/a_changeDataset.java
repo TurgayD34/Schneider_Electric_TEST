@@ -1,9 +1,7 @@
 package com.TensorFlow.tests;
 
-import com.TensorFlow.pages.LoginPage;
 import com.TensorFlow.pages.NavigationPage;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
