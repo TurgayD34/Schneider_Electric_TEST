@@ -15,7 +15,7 @@ public class a_changeDataset extends TestBase{
         Actions actions = new Actions(driver);
         NavigationPage nav = new NavigationPage();
 
-        actions.moveToElement(nav.datasetExclusive,100,100).click().perform();
+        actions.moveToElement(nav.datasetExclusive).click().perform();
         Assert.assertTrue(nav.datasetExclusive.isDisplayed(),"Verify Exclusive is displayed");
 
 
